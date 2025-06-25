@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { createRoot } from 'react-dom/client';
 import { WeatherData } from './types';
-import dotenv from 'dotenv';
 import {
   kelvinToCelsius,
   celsiusToFahrenheit,
